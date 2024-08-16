@@ -1,0 +1,204 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; 
+}
+
+/* Navbar */
+.navbar  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #a1d4e4; 
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    margin-bottom: 0;
+    background-color: #007bff; 
+}
+
+.navbar-brand, .nav-link {
+    color: #007bff !important; 
+}
+html {
+    scroll-behavior: smooth;
+}
+/* Hero Section */
+.hero {
+    background: url('anh1.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+/* About Section */
+#about {
+    background-color: #e3f2fd; 
+    padding: 60px 0;
+}
+
+#about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about .row {
+    display: flex;
+    justify-content: center;
+}
+
+#about .col-md-8, #about .col-md-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+#about h2 {
+    font-size: 2.0rem;
+    margin-bottom: 1rem;
+    color: #007bff; 
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+#about img {
+    border: 5px solid #007bff; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+}
+
+/* Skills Section */
+#skills {
+    padding: 60px 0;
+}
+
+#skills h2 {
+    font-size: 2.0rem;
+    margin-bottom: 1rem;
+    color: #007bff; 
+}
+
+#skills h4 {
+    color: #007bff; 
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Experience Section */
+#experiences {
+    padding: 60px 0;
+}
+
+#experiences h2 {
+    font-size: 2.0rem;
+    margin-bottom: 1rem;
+    color: #007bff; 
+}
+
+#experiences h4 {
+    font-size: 1.8rem;
+    margin-top: 0;
+    color: #007bff; 
+}
+
+#experiences p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+#experiences ul {
+    list-style: disc;
+    padding-left: 20px;
+    font-size: 1.1rem;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #e3f2fd; 
+    padding: 60px 0;
+}
+
+#portfolio h2 {
+    font-size: 2.0rem;
+    margin-bottom: 1rem;
+    color: #007bff; 
+}
+
+#portfolio .card-title {
+    color: #007bff;
+}
+
+#portfolio .thank-you {
+    font-size: 1.2rem;
+    color: #007bff;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #bbdefb; 
+    padding: 60px 0;
+}
+
+#contact h2 {
+    font-size: 2.0rem;
+    margin-bottom: 1rem;
+    color: #007bff; 
+}
+
+#contact form {
+    max-width: 600px;
+    margin: auto;
+}
